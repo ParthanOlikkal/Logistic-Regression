@@ -7,7 +7,7 @@ from sklearn import preprocessing
 import matplotlib.pyplot as plt
 
 #Load Dataset
-url = "https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/ML0101ENv3/labs/ChurnData.csv"
+url = "https://raw.githubusercontent.com/ParthanOlikkal/Logistic-Regression/master/ChurnData.csv"
 churn_df = pd.read_csv(url)
 churn_df.head()
 
